@@ -1,0 +1,113 @@
+#usergroup_list_view_container{
+    .columns{
+        padding: 0px;
+        
+        .col.col-6{
+            margin-left: 0px;
+        }
+    }
+}
+
+.user-group-header{
+    overflow: hidden;
+    padding-top: 20px;
+    margin-left: 20px;
+
+    .utilities-group-conatiner{
+        background: none;
+
+        h1{
+            float: left;
+            margin: 0px;
+        }
+
+        a{
+            color: #3fb2c1;
+            font-size: 20px;
+            padding: 5px 21px 12px 25px;
+            min-width: 22px;
+            display: block;
+            float: left;
+            cursor: pointer;
+            max-height: 26px;
+            border: none;
+        }
+    }
+}
+
+   
+#user-groups-container{
+    .user-group-header{
+        margin-left: 0px;
+
+        .utilities-group-conatiner{ 
+            a{
+                padding-right: 6px;
+            }
+        }
+    }
+} 
+
+.user-groups-list{
+    .asset-viewer{
+        ol{
+            overflow: hidden;
+
+            span.title{
+                span{
+                    float: none;
+                }
+            }
+
+            li{
+                clear: both;
+            }
+        }
+
+        .utilities-image-conatiner{
+            -webkit-transition: all 0.5s ease-in-out;
+            -moz-transition: all 0.5s ease-in-out;
+            -ms-transition: all 0.5s ease-in-out;
+            -o-transition: all 0.5s ease-in-out;
+            transition: all 0.5s ease-in-out;
+
+            &.darkBlue{
+                background: #339cb1;
+            }
+
+
+            .button-group{
+                a{
+                    padding: 12px 5px 12px 15px;
+                }
+            }
+        }
+
+        &.droppable-over{
+            div.header{
+                span.utilities-image-conatiner{
+                    background: #339cb1 !important;
+                }
+            }
+        }
+    }
+
+}
+
+.simple-list-users{
+    .ui-draggable-dragging{
+        z-index: 10000;
+        background: none !important;
+    }
+
+    li{
+        overflow: hidden;
+        
+        .row{
+            cursor: hand;
+            cursor: grab;
+            cursor: -webkit-grab; 
+            cursor: -moz-grab;
+        }
+    }   
+}

@@ -1,0 +1,9 @@
+@mixin grid( $Cols: 12, $gutters: 2 ) {
+  	@for $i from 1 through $Cols{
+		.col.col-#{$i}{
+			width: ( ( ( $i / $Cols )  * 100% ) - $gutters );
+			margin-right: #{( $gutters / 2 ) + '%'};
+			margin-left: #{( $gutters / 2 ) + '%'};
+		}
+	}
+} 

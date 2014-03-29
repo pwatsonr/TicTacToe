@@ -1,0 +1,184 @@
+// Table of contents
+// 0. imports
+// 1. form
+// 2. inputs
+// 3. Code Mirror overrides
+// 4. labels
+// 5. cgMultiFileUploader 
+
+/////////////////
+//0. imports 
+/////////////////
+
+/////////////////
+//1. form 
+/////////////////
+
+/////////////////
+//2. inputs 
+/////////////////
+input
+, textarea
+, select{
+	border: 1px solid #b1b1b1;
+	@include box-shadow(inset 2px 2px 2px 0px #dedede );
+	width: 100%;
+	display: block;
+	color:#7a7a7a;
+	margin-bottom: 25px;
+}
+
+input{
+	&:after{
+		@include box-shadow( 2px 2px 2px 0px #EDEDED );
+	}
+	
+	&:before{
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+	
+	padding: 12px 0 11px 0;
+	font-size: 18px;
+	
+	&[type="button"]
+	, &[type="submit"] { 
+		& , .button{
+			border: none;
+			color: #fff;
+			@include box-shadow( none );
+			margin-bottom: 0px;
+			font-size: 20px;
+			padding: 10px;
+		}
+	}
+
+	&[type="checkbox"]{
+		-moz-appearance:none;
+		-webkit-appearance:none;
+		-o-appearance:none;
+		border: none;
+		@include box-shadow( none );
+		width: auto;
+		overflow: hidden;
+		padding: 4px 0 0 0;
+		min-width: 37px;
+	}
+	
+	&[type="file"]{
+		display: none;
+		/*border: none;
+		background: none;
+		margin-bottom: 0px;
+		@include box-shadow( none );*/
+	}
+}
+
+p.block-label{
+	clear: both;
+}
+
+.tagsinput, #tags_tag_addTag{
+	width: 100%;
+
+	input{
+		width: 100% !Important;
+	}
+}
+
+textarea{
+	
+	font-size: 18px;
+}
+
+select{
+	background: transparent;
+	font-size: 16px;
+	line-height: 1;
+	border-radius: 0;
+	-webkit-appearance: none;
+	padding: 12px 5px 11px 5px;
+	font-size: 18px;
+
+	background: url('http://22b8795554198d35581a-80a228ec17a148332a49b412ea7cb221.r85.cf2.rackcdn.com/select-down-arrow.png') no-repeat 98% center;
+
+	&:before{
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+}
+
+
+/////////////////
+//3. Code Mirror overrides 
+/////////////////
+.CodeMirror{
+	font-size: 13px;
+	margin-bottom: 25px;
+	
+	&, .tagsinput{
+		padding: 4px 0 0px 3px !important;
+		max-width: 100% !Important;
+		
+		border: 1px solid #b1b1b1;
+  		@include box-shadow(inset 2px 2px 2px 0px #dedede );
+		
+		&:after{
+  			@include box-shadow( 2px 2px 2px 0px #EDEDED );
+		}
+	}
+	
+	pre{
+		span{
+			display: inline;
+		}
+	}
+	
+	.CodeMirror-gutter{
+		background: none !important;
+	}
+	
+	.CodeMirror-wrap 
+	.CodeMirror-scroll{
+		overflow-x:scroll;
+	}
+}
+
+
+/////////////////
+//4. labels
+/////////////////
+label{
+	margin-bottom: 5px;
+	font-size: 18px;
+	color: #7a7a7a;
+	line-height: 21px;
+	display:block;
+
+	&.checkbox-label{
+		float: left;
+		clear: both;
+	}
+}
+
+
+/////////////////
+//5. cgMultiFileUploader 
+/////////////////
+#cg_imageList{
+	li{
+		overflow: visible;
+	}
+}
+
+.CodeMirror{
+	pre{
+		font-size: 12px !important;
+	}
+}
+
+
+.cgMultiFileUploader {
+	margin-bottom: 25px;
+}
+

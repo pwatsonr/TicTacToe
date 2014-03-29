@@ -1,0 +1,103 @@
+// Table of contents
+// 0. imports / global
+// 1. nav
+// 2. forms
+// 3. footer
+
+
+/////////////////
+//0. imports / global
+/////////////////
+
+section{
+	padding: 10px 0 0 0;
+	width: 100%;
+	min-width: 350px;
+	margin:0;
+	height: auto;
+	overflow: visible;
+	
+	/////////////////
+	//1. Nav 
+	/////////////////
+	.nav{
+	}
+
+
+	h2{
+		margin-left: 2.5%;
+		margin-bottom: 10px;
+		font-size: 24px;
+		color: #339cb1;
+	}
+
+	/////////////////
+	//2. forms 
+	/////////////////
+	form{
+		@import "_forms.scss";	
+		margin: 0 auto;
+		
+		label{
+			text-align: left;
+			margin-left: 0.5%;
+			margin-bottom: 0px;
+			line-height: normal;
+			display: inline;
+			
+			span{
+				&.CharLimit{
+					font-size: 10px;
+				}
+			}
+		}
+		
+		input{
+			width: auto;
+			margin: 0 0 0 2.5%;
+			display: inline;
+		}
+	}
+	 
+	 
+	
+	
+	
+	/////////////////
+	//3. footer 
+	/////////////////
+	.footer{
+		margin-top: 25px;
+		clear: both;
+		
+		.utilities-conatiner{	
+			.button-group{
+				&.left{	
+					a{
+						margin: 7px 0 0 10px;
+						padding: 5px 7px;
+						
+						&.icon{
+							border: none;
+							text-align: center;
+							
+							&.icon-twitter{
+								font-size: 20px;
+								padding-top: 7px;
+								padding-bottom: 8px;
+							}
+						}
+
+						&.off{
+							background: #ADB4BD;
+						}
+						
+						&.include{
+							outline: #82bd1a solid;
+						}
+					}
+				}
+			}
+		}
+	}
+ }

@@ -1,0 +1,160 @@
+.header{
+    border-bottom: 1px solid #ECEDF3;
+    background: #45bcd2;
+    height:auto;
+
+    span{
+        text-align:left;
+        width:auto;
+        float:none;
+
+        &.logo {
+	        width: 50%;
+	        padding: 17px 14px;
+	        display: block;
+	        float: left;
+	    }
+    }
+
+    .Info {
+        float: right;
+        padding: 18px 14px;
+        text-align: right;
+
+        span{
+        	&.invoiceNum {
+                color: #fff;
+                font-size: 14px;
+                font-weight: bold;
+            }
+        }
+
+        i {
+            display: block;
+            color: #fff;
+            white-space: nowrap;
+            line-height: 16px;
+        }
+    }
+}
+
+.body {
+    padding:0px;
+       
+   .from
+    , .to{
+        width: 40%;
+        display: block;
+        margin: 20px;
+
+        h5{
+            color: #666;
+            margin-bottom: 8px;
+            font-size: 20px;
+        }
+        span {
+            display: block;
+            background: url(http://themes.kopyov.com/aquincum/images/elements/control/subnav_arrow.png) no-repeat 0 8px;
+            padding-left: 12px;
+            line-height: 22px;
+            color: #666;
+            margin-bottom: 5px;
+            font-size:18px;
+
+            strong{
+                font-weight: bold;
+            }
+
+            a{
+                text-decoration: none;
+                color: #2B6893;
+                font-size:18px;
+            }
+        }
+    }
+    
+    .from{
+        float: left;
+    }
+
+    .to{
+        display: block;
+        float: right;
+    }
+    
+    .amountDue{
+    	.total{
+            text-align: right;
+            float: right;
+            margin: 20px 30px 20px 0;
+
+        	span{
+                font-weight: bold;
+                padding: 0 0 4px 0;
+                display: block;
+            }
+
+            strong{
+                display: block;
+                font-size:24px;
+                font-weight:bold;
+                color: $red;
+            }
+        }
+    }
+}
+
+
+
+
+table{
+	border-bottom: 1px solid #ECEDF3;
+	
+	thead{
+		tr{
+
+			td{
+			    text-align: center;
+			    color: #fff;
+			    font-size:18px;
+			    padding: 7px 12px;
+			    font-weight: bold;
+			    background: #45bcd2;
+				border: none;
+
+				&:first-child{
+					border-left: none;
+				}
+			}
+		}
+	}
+
+	tbody{
+		tr{
+
+			td{
+			    color: #666;
+			    font-size:18px;
+			    padding: 9px 16px;
+			    vertical-align: middle;
+			    color: #777;
+			    border-left: 1px solid #ECEDF3;
+			    border-top: 1px solid #ECEDF3;
+
+				&:first-child{
+					border-left: none;
+				}
+
+			}
+
+            &:nth-child( even ){
+                background: #F5F5F5;
+            }
+
+            &:hover{
+                background: #F5F5F5;
+            }
+		}
+	}
+
+}

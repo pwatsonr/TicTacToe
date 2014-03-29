@@ -1,0 +1,16 @@
+
+#cg-changeLocation-controls{
+    border-top: 1px solid #2e8d9f;
+
+    .utilities-conatiner{
+        background: #339cb1;
+
+        a{
+            border-left: 1px solid #2e8d9f;
+
+            &:hover{
+                background: #2e8d9f;
+            }
+        }
+    }
+}

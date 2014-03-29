@@ -1,0 +1,31 @@
+.email-header{
+    p{
+        color: #9C9C9C;
+        display: block;
+        min-width: 80px;
+        float: left;
+    }
+    span{
+        padding: 15px 0 15px ;
+        clear: both;
+        font-size: 18px;
+        color: #7a7a7a;
+        line-height: 21px;
+
+        a{
+            float: right;
+            color: #7a7a7a;
+        }
+        span{
+            display: inline;
+        }
+    }
+
+    .email-from, .email-Subject{
+        border-bottom: 1px solid #cfcfcf;
+    }
+}
+
+.email-body{
+    margin-top: 45px;
+}

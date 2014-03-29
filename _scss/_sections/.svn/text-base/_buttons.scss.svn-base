@@ -1,0 +1,22 @@
+// Table of contents
+// 0. imports
+// 1. buttons
+// 2. 
+/////////////////
+//0. imports 
+/////////////////
+
+
+/////////////////
+//1. buttons 
+/////////////////
+.button{
+	
+	& ,input.button{
+		border: none;
+		color: #fff;
+	}
+}
+
+
+

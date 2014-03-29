@@ -1,0 +1,256 @@
+
+	
+	&.connectIcon_GooglePlus{
+	
+		span{
+			&.button-group{
+				a{
+					&:hover{
+						background: $googlePlus-color-hover;
+					}
+					
+					&.icon{
+						border-left: 1px solid $googlePlus-color-hover;
+					}
+				}
+			}
+		}
+	}
+	
+	&.connectIcon_Pinterest{
+	
+		span{
+			&.button-group{
+				a{
+					&:hover{
+						background: $pinterest-color-hover;
+					}
+					
+					&.icon{
+						border-left: 1px solid $pinterest-color-hover;
+					}
+				}
+			}
+		}
+	}
+	
+	&.connectIcon_LinkedIn{
+	
+		span{
+			&.button-group{
+				a{
+					&:hover{
+						background: $linkedIn-color-hover;
+					}
+					
+					&.icon{
+						border-left: 1px solid $linkedIn-color-hover;
+					}
+				}
+			}
+		}
+	}
+	
+	&.connectIcon_Flickr{
+	
+		span{
+			&.button-group{
+				a{
+					&:hover{
+						background: $flickr-color-hover;
+					}
+					
+					&.icon{
+						border-left: 1px solid $flickr-color-hover;
+					}
+				}
+			}
+		}
+	}
+	
+	&.connectIcon_Facebook{
+	
+		span{
+			&.button-group{
+				a{
+					&:hover{
+						background: $facebook-color-hover;
+					}
+					
+					&.icon{
+						border-left: 1px solid $facebook-color-hover;
+					}
+				}
+			}
+		}
+	}
+	
+	&.connectIcon_Instagram{
+	
+		span{
+			&.button-group{
+				a{
+					&:hover{
+						background: $instagram-color-hover;
+					}
+					
+					&.icon{
+						border-left: 1px solid $instagram-color-hover;
+					}
+				}
+			}
+		}
+	}
+	
+	&.connectIcon_Tumblr{
+	
+		span{
+			&.button-group{
+				a{
+					&:hover{
+						background: $tumblr-color-hover;
+					}
+					
+					&.icon{
+						border-left: 1px solid $tumblr-color-hover;
+					}
+				}
+			}
+		}
+	}
+	
+	&.connectIcon_Twitter{
+	
+		span{
+			&.button-group{
+				a{
+					&:hover{
+						background: $twitter-color-hover;
+					}
+					
+					&.icon{
+						border-left: 1px solid $twitter-color-hover;
+					}
+				}
+			}
+		}
+	}
+	
+	&.connectIcon_Youtube{
+	
+		span{
+			&.button-group{
+				a{
+					&:hover{
+						background: $youtube-color-hover;
+					}
+					
+					&.icon{
+						border-left: 1px solid $youtube-color-hover;
+					}
+				}
+			}
+		}
+	}
+	
+	&.connectIcon_Vimeo{
+	
+		span{
+			&.button-group{
+				a{
+					&:hover{
+						background: $vimeo-color-hover;
+					}
+					
+					&.icon{
+						border-left: 1px solid $vimeo-color-hover;
+					}
+				}
+			}
+		}
+	}
+	
+	&.connectIcon_Foursquare{
+	
+		span{
+			&.button-group{
+				a{
+					&:hover{
+						background: $foursquare-color-hover;
+					}
+					
+					&.icon{
+						border-left: 1px solid $foursquare-color-hover;
+					}
+				}
+			}
+		}
+	}
+	
+	&.connectIcon_bitly{
+	
+		span{
+			&.button-group{
+				a{
+					&:hover{
+						background: $bitly-color-hover;
+					}
+					
+					&.icon{
+						border-left: 1px solid $bitly-color-hover;
+					}
+				}
+			}
+		}
+	}
+	
+	&.connectIcon_GetGlue{
+	
+		span{
+			&.button-group{
+				a{
+					&:hover{
+						background: $getGlue-color-hover;
+					}
+					
+					&.icon{
+						border-left: 1px solid $getGlue-color-hover;
+					}
+				}
+			}
+		}
+	}
+	
+	&.connectIcon_Storify{
+	
+		span{
+			&.button-group{
+				a{
+					&:hover{
+						background: $storify-color-hover;
+					}
+					
+					&.icon{
+						border-left: 1px solid $storify-color-hover;
+					}
+				}
+			}
+		}
+	}
+	
+	&.connectIcon_GoogleAnalytics{
+	
+		span{
+			&.button-group{
+				a{
+					&:hover{
+						background: $googleAnalytics-color-hover;
+					}
+					
+					&.icon{
+						border-left: 1px solid $googleAnalytics-color-hover;
+					}
+				}
+			}
+		}
+	}

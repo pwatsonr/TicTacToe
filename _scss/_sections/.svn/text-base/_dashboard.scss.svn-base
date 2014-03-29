@@ -1,0 +1,19 @@
+span{
+	display: inline;
+	font-size: 55px;
+	margin: 8px 10px 10px 10px;
+	border-right: 1px solid #ECEDF3;
+	padding-right: 20px;
+	color: #EDEDED;
+}
+
+div{
+	&.dashBoard-content{
+		display: inline-block;
+	}
+
+	h1, p{
+		color: #fff;
+		margin: 0px;
+	}
+}

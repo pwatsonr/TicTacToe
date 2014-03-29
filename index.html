@@ -1,0 +1,49 @@
+<!DOCTYPE HTML>
+
+<html>
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>Rampup Javascript</title>
+
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+	<div id="wrapper">
+		<header id="top-header">
+			<span class="blue-text fleft playerInfo player1-name"></span>
+			<span class="center">
+				<span class="blue-text">Vs.</span>
+				<!-- span class="blue-text reset">Reset</span-->
+			</span>
+			<span class="blue-text fright playerInfo player2-name"></span>
+		</header>
+		
+		<section>
+			<div class="container">
+				<div class="game-board">
+					<div class="win-line"></div>
+					<div class="square square-1" id="1"><span class="o"></span></div>
+					<div class="square square-2" id="2"><span class="x"></span></div>
+					<div class="square square-3" id="4"><span class="o"></span></div>
+
+					<div class="square square-4" id="8"><span class="o"></span></div>
+					<div class="square square-5" id="16"><span class="x"></span></div>
+					<div class="square square-6" id="32"></div>
+
+					<div class="square square-7" id="64"><span class="x"></span></div>
+					<div class="square square-8" id="128"></div>
+					<div class="square square-9" id="256"><span class="o"></span></div>
+				</div>
+			</div>
+		</section>
+	</div>
+
+	<script src="js/jquery.js"></script>
+	<script src="js/game.js"></script>
+	<script src="js/notification.js"></script>
+	<script src="js/main.js"></script>
+</body>
+
+</html>

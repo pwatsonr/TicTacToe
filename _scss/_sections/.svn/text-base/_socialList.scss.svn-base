@@ -1,0 +1,186 @@
+span{
+	&.icon-ok{
+		color: #6a9a16;
+	}
+}
+
+&.social-Facebook-list{
+	span{
+		&.button-group{
+			a{
+				&:hover{
+					color:#39467f;
+				}
+			}
+		}
+	}
+}
+
+&.social-GooglePlus-list{
+	span{
+		&.button-group{
+			a{
+				&:hover{
+					color:#cc4130;
+				}
+			}
+		}
+	}
+}
+
+&.social-Pinterest-list{
+	span{
+		&.button-group{
+			a{
+				&:hover{
+					color:#c81f25;
+				}
+			}
+		}
+	}
+}
+
+&.social-LinkedIn-list{
+	span{
+		&.button-group{
+			a{
+				&:hover{
+					color:#005a87;
+				}
+			}
+		}
+	}
+}
+
+&.social-Flickr-list{
+	span{
+		&.button-group{
+			a{
+				&:hover{
+					color:#ff0084;
+				}
+			}
+		}
+	}
+}
+
+
+&.social-Instagram-list{
+	span{
+		&.button-group{
+			a{
+				&:hover{
+					color:#d9cdb9;
+				}
+			}
+		}
+	}
+}
+
+&.social-Tumblr-list{
+	span{
+		&.button-group{
+			a{
+				&:hover{
+					color:#354d6d;
+				}
+			}
+		}
+	}
+}
+
+&.social-Twitter-list{
+	span{
+		&.button-group{
+			a{
+				&:hover{
+					color:#447eb5;
+				}
+			}
+		}
+	}
+}
+
+&.social-Youtube-list{
+	span{
+		&.button-group{
+			a{
+				&:hover{
+					color:#ff3333;
+				}
+			}
+		}
+	}
+}
+
+&.social-Vimeo-list{
+	span{
+		&.button-group{
+			a{
+				&:hover{
+					color:#1ab7ea;
+				}
+			}
+		}
+	}
+}
+
+&.social-Foursquare-list{
+	span{
+		&.button-group{
+			a{
+				&:hover{
+					color:#b74ab3;
+				}
+			}
+		}
+	}
+}
+
+&.social-bitly-list{
+	span{
+		&.button-group{
+			a{
+				&:hover{
+					color:#f9cc79;
+				}
+			}
+		}
+	}
+}
+
+&.social-GetGlue-list{
+	span{
+		&.button-group{
+			a{
+				&:hover{
+					color:#236191;
+				}
+			}
+		}
+	}
+}
+
+&.social-Storify-list{
+	span{
+		&.button-group{
+			a{
+				&:hover{
+					color:#45bcd2;
+				}
+			}
+		}
+	}
+}
+
+&.social-GoogleAnalytics-list{
+	span{
+		&.button-group{
+			a{
+				&:hover{
+					color:#055c0a;
+				}
+			}
+		}
+	}
+}

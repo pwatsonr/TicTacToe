@@ -1,0 +1,7 @@
+@mixin hTags( $number: 6, $startSize: 42 ) {
+  	@for $i from 1 through $number{
+		h#{$i}{
+			font-size: ($startSize / $i) + px;
+		}
+	}
+} 

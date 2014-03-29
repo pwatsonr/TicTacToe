@@ -1,0 +1,19 @@
+.QuickEdit-Container {
+	&.active{
+		position: relative;
+	}
+	.QuickEdit-Form {
+		display:none;
+		clear: both;
+	}
+
+	.button{
+		&.quickEditCancel{
+			color: $red;
+
+			span{
+				color: #fff;
+			}
+		}
+	}
+}

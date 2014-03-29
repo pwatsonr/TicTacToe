@@ -1,0 +1,42 @@
+#setting-container{
+	background: #f4f5f6;
+	position: absolute;
+	width: 100%;
+	z-index: 8;
+	display: none;
+	overflow: hidden;
+
+	@include border-radius( 0 0 3px 3px );
+    @include box-shadow( 0 1px 3px rgba(0, 0, 0, 0.15) );
+
+	section{
+		background: #f4f5f6;
+		padding: 0;
+		margin: 0;
+		overflow: visible;
+		height: auto;
+
+		h1{
+			padding: .5% 0 .5% 2%;
+		}
+
+		.columns{
+			padding: 0 1% 0 1%;
+			background: none;
+
+			label.checkbox-label{
+				clear: none;
+			}
+
+			input[type="checkbox"]{
+				float: left;
+				clear: both;
+			}
+		}
+	}
+
+
+	.utilities-conatiner{
+		background: #339cb1;
+	}
+}
